@@ -82,6 +82,8 @@ void parseCode(vector <string> &codeVec, string filename){
 
     while(!File.eof()){
         getline(File,code);
+
+        //If the line contains empty strings then skip to the next line
         if(code != ""){
          codeVec.push_back(code);
         }
