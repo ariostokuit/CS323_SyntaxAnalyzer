@@ -19,6 +19,8 @@ int main(){
     
     parseCode(codeVector,"SampleFile.txt");
 
+
+    //Print out the code line by line
     int i = 0;
     while(i < codeVector.size()){
         cout << codeVector[i] << endl;
