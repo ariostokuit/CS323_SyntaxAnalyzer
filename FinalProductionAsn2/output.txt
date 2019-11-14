@@ -1,0 +1,46 @@
+a + b$
+F -> id
+R -> eps
+T -> FR
+F -> id
+R -> eps
+T -> FR
+Q -> eps
+Q -> +TQ
+E -> TQ
+success
+
+c+ d$
+F -> id
+R -> eps
+T -> FR
+F -> id
+R -> eps
+T -> FR
+Q -> eps
+Q -> +TQ
+E -> TQ
+success
+
+e-f$
+F -> id
+R -> eps
+T -> FR
+F -> id
+R -> eps
+T -> FR
+Q -> eps
+Q -> +TQ
+E -> TQ
+success
+
+g*n$
+F -> id
+F -> id
+R -> eps
+R -> *FR
+T -> FR
+Q -> eps
+E -> TQ
+success
+
